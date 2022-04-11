@@ -4,14 +4,14 @@ var enterAge =parseInt(prompt("Yoshingizni kiriting?"),10);
 
   
   if( enterAge >= 16){
-    var go = "Poygada qatnashishingiz mumkin"
+    var go = "Yoshingiz tug'ri kelmadi uzr"
     console.log(go);
     var title = document.createElement("h1")
     go.textContent = "enterAge"
     document.body.append(go)
   
   }else {
-       var stop = "Poygada qatnasha olmaysiz uzr"
+       var stop = "Yoshingiz tug'ri kelmadi uzr"
        console.log(stop);
   var title = document.createElement("h1")
   stop.textContent = "enterAge"
